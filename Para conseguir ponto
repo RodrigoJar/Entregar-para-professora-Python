@@ -1,0 +1,33 @@
+arquivo = open("arquivo_jogadoresNFL.txt", "r")
+print(arquivo)
+print(arquivo.read())
+
+f = open ("teste.txt" , "w")
+f.write ("texto 1")
+f.close()
+
+f = open ("teste.txt" , "r")
+print(f.read())
+f.close()
+
+with open("teste.txt", "w") as f:
+    f.write("texto 1\n")
+    f.write("texto 2 ")
+
+with open("texte.txt", "r") as f:
+    print(f.read())
+
+f =  open("arquivo_texte.txt","r")
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+f.close()   
+
+f = open ("arquivo_teste.txt" , "r")
+print(f.readlines())
+f.close()
+
+feito por Rodrigo
