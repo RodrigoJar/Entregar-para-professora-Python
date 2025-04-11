@@ -1,0 +1,12 @@
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
+
+soma = num1 + num2 
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2 if num2 !=0 else "Divisão por zero"
+
+with open ("Arquivo.txt" , "w") as arquivo:
+    arquivo.write(f"soma: {soma}\nsubtracao: {subtracao}\nmultiplicacao: {multiplicacao}\ndivisao: {divisao}\n")
+
+Só falta colocar o print para apacerer os resultados
