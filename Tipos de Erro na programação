@@ -1,0 +1,100 @@
+Exemplo:1
+num = 1/0 #divisão por zero
+
+Exemplo:2
+10 + 'ae'
+
+Exemplo:3
+lista = [1, 2, 3]
+print(lista[4])
+
+Exemplo:4
+dicionario = {1:" item 1", 2:"item 2"}
+print(dicionario[5])
+
+Exemplo: 5
+while True print ("hello word")
+
+Exemplo: 6
+4 + spam*3
+
+Exemplo:7
+print('2' + 2)
+
+Exemplo:8
+print(2 + '2')
+
+Exemplo:9
+print(math.sqrt(2))
+
+Exemplo:10
+import math
+print(math.sqrt(-2))
+
+Exemplo:11
+print("Abrindo um Arquivo!")
+open ("texto.txt", "r")
+
+Exemplo:1 de uso do try/except:
+import math
+num = -3
+
+try:
+    result = math.sqrt(num)
+    print("A raiz quadrada", result)
+except Exception:
+    print('Não existe a raiz quadrada de n negativo')
+
+Exemplo:2 de uso do try/except:
+import match
+num = -3
+
+try:
+    result = math.sqrt(num)
+    print("A raiz quadrada", result)
+except ValueError:
+    num = -num:
+    print ('Transforma n negativo em positivo')
+    result = math.sqrt(num)
+    print("A raiz quadrada", result)
+
+Exemplo:3 de uso do try/except:
+try:
+    x = int(input("Enter number"))
+    x = x + 1
+    print(x)
+except:
+    print("Invalid input")
+
+Exemplo:4 de uso do try/except
+try:
+   x = int(input("Enter number"))
+   x = x + 1
+   print(x)
+except:
+   print("Invalid input")
+finally
+    print("Valid input")
+
+Exemplo:5 de uso de try/except
+def dividir (x , y):
+    try:
+        result = x/y
+    except ZeroDivisionError:
+        print ("Division by zero!")
+    else:
+        print("Result is", result)
+dividir(2. 2)
+
+Exemplo:6 do uso de try/except
+def Divide():
+    try:
+        num1 = int(intput("1 num:"))
+        num2 = int(intput("2 num:"))
+        print("Divisão:" , result)
+    except ValueError:
+      print("Dado informado invalido!") 
+    except
+      print("Divisão por zero!")
+Divide()
+        
